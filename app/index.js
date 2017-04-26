@@ -2,9 +2,16 @@ import React from 'react'
 
 import { render } from 'react-dom'
 
+import Awesome from './Awesome.js'
+
 class App extends React.Component {
   render () {
-    return <p> Hello eact </p>
+    return (
+      <div>
+        <p> Hello react </p>
+        <Awesome />
+      </div>
+    )
   }
 }
 

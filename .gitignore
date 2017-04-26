@@ -1,3 +1,4 @@
 node_modules
 
-src/client/public/bundle.js
+build/bundle.js
+build/css
